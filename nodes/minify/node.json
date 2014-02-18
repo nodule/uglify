@@ -11,7 +11,7 @@
   "ports":{
     "input":{
       "in":{
-        "title":"Source"
+        "title":"Source",
         "type":"string"
       }
     },

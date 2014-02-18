@@ -1,0 +1,41 @@
+{
+  "name": "uglify",
+  "description": "Uglify for Chiχ",
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodule/uglify.git"
+  },
+  "dependencies": {
+    "uglify-js": "2.x.x"
+  },
+  "nodes": [
+    {
+      "ports": {
+        "input": {
+          "in": {
+            "title": "Source",
+            "type": "string"
+          }
+        },
+        "output": {
+          "out": {
+            "type": "string",
+            "title": "minified source"
+          }
+        }
+      },
+      "require": {
+        "uglify-js": "2.x.x"
+      },
+      "phrases": {
+        "active": "Minifying source"
+      },
+      "description": "Minifiy a javascript source",
+      "ns": "uglify",
+      "name": "minify",
+      "fn": "output.out = uglify_js.minify(input.in, {fromString: true});\n"
+    }
+  ],
+  "twigs": []
+}
