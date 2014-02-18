@@ -1,0 +1,28 @@
+{
+  "name": "nodule-uglify",
+  "description": "Uglify for Chiχ",
+  "author": "Rob Halff <rob.halff@gmail.com>",
+  "version": "0.0.3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodule/uglify.git"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "dependencies": {
+    "uglify-js": "2.x.x"
+  },
+  "devDependencies": {
+    "chit": "0.x.x"
+  },
+  "main": "x",
+  "scripts": {
+    "test": "chit"
+  },
+  "chix": {
+    "name": "uglify",
+    "color": "rgb(71,162,170)"
+  }
+}
