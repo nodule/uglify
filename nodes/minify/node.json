@@ -1,7 +1,7 @@
 {
   "name":"minify",
   "ns": "uglify",
-  "description":"Minifiy a javascript source",
+  "description":"Minify a javascript source",
   "phrases": {
     "active": "Minifying source"
   },
