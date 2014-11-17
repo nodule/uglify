@@ -1,25 +1,27 @@
 {
-  "name":"minify",
+  "name": "minify",
   "ns": "uglify",
-  "description":"Minify a javascript source",
+  "description": "Minify a javascript source",
   "phrases": {
     "active": "Minifying source"
   },
-  "require":{
-    "uglify-js":"2.x.x"
-  },
-  "ports":{
-    "input":{
-      "in":{
-        "title":"Source",
-        "type":"string"
+  "ports": {
+    "input": {
+      "in": {
+        "title": "Source",
+        "type": "string"
       }
     },
-    "output":{
-      "out":{
-        "type":"string",
-        "title":"minified source"
+    "output": {
+      "out": {
+        "type": "string",
+        "title": "minified source"
       }
+    }
+  },
+  "dependencies": {
+    "npm": {
+      "uglify-js": "2.x.x"
     }
   }
 }

@@ -11,6 +11,11 @@
   },
   "nodes": [
     {
+      "dependencies": {
+        "npm": {
+          "uglify-js": "2.x.x"
+        }
+      },
       "ports": {
         "input": {
           "in": {
@@ -24,9 +29,6 @@
             "title": "minified source"
           }
         }
-      },
-      "require": {
-        "uglify-js": "2.x.x"
       },
       "phrases": {
         "active": "Minifying source"
