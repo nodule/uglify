@@ -1,1 +1,1 @@
-output.out = uglify_js.minify($.in, {fromString: true});
+output.out = $.write('in', uglify_js.minify($.in, {fromString: true}));
