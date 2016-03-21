@@ -1,1 +1,1 @@
-output.out = uglify_js.minify(input.in, {fromString: true});
+output.out = uglify_js.minify($.in, {fromString: true});
